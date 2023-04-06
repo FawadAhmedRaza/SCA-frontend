@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Roboto&display=swap");
+
+@font-face {
+  font-family: "DINOT-bold";
+  font-display: auto;
+
+  font-weight: 700;
+  src: url(./fonts/MyriadPro-Regular.otf) format("OpenType");
+}
+@font-face {
+  font-family: "DINOT-Bolds";
+  font-display: auto;
+
+  font-weight: 100;
+  src: url(./fonts/DINOT-Bold.otf) format("OpenType");
+}
+@font-face {
+  font-family: "DINOT-Demi";
+  font-display: auto;
+
+  font-weight: 400;
+  src: url(./fonts/DIN-2014-Demi.ttf) format("TrueType");
+}
+@font-face {
+  font-family: "DINOT-Medium";
+  font-display: auto;
+
+  font-weight: 500;
+  src: url(./fonts/DINOT-Medium-13.otf) format("OpenType");
+}
+@font-face {
+  font-family: "DINOT-Medium 13";
+  font-display: auto;
+
+  font-weight: 500;
+  src: url(./fonts/DINOT-Medium-13.otf) format("OpenType");
+}
+@font-face {
+  font-family: "DINOT-MediumItalic";
+  font-display: auto;
+
+  font-weight: 500;
+  src: url(./fonts/DINOT-MediumItalic.otf) format("OpenType");
+}
+@font-face {
+  font-family: "Dinot2014-Regular";
+  font-display: auto;
+
+  font-weight: 400;
+  src: url(./fonts/DIN2014-Regular.ttf) format("TrueType");
+}
+@font-face {
+  font-family: "DINPro-Medium";
+  font-display: auto;
+
+  font-weight: 500;
+  src: url(./fonts/DINPro-Medium.otf) format("OpenType");
+}
+@font-face {
+  font-family: "MyriadPro-Bold";
+  font-display: auto;
+
+  font-weight: 700;
+  src: url(./fonts/MyriadPro-Bold.otf) format("OpenType");
+}
+@font-face {
+  font-family: "MyriadPro-Regular";
+  font-display: auto;
+  font-weight: 400;
+  src: url(./fonts/MyriadPro-Regular.otf) format("OpenType");
+}
+.navbar-brand img {
+  width: 52%;
+  max-width: 100%;
+  opacity: 1;
+}
+
+.navbar-brand {
+  padding: 1.5rem 0 1.5rem 2.5rem;
+}
+.navbar-wrapper {
+  background-color: #080d13de;
+}
+.navbar {
+  background-color: transparent !important;
+  background-image: radial-gradient(
+    at center left,
+    #080d1373 0%,
+    #080d1382 82%
+  );
+}
+.nav-link {
+  color: white !important;
+  font-weight: bold;
+  font-family: "Dinot2014-Regular", Sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+}
+.nav-link:hover {
+  color: #d92222 !important;
+  font-weight: normal;
+}
+
+.dropdown-menu {
+  background-color: #778993bf;
+}
+
+.dropdown-item {
+  color: #fff !important;
+  font-family: "DINOT-Demi", Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.dropdown-item:hover {
+  color: #d92222 !important;
+  font-family: "DINOT-Demi", Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent !important;
+}
+
+table tr td {
+  padding: 15px;
+  line-height: 1.5;
+  vertical-align: top;
+  background-color: #c1c8cc;
+  border: 2px solid #fff;
+  /* border-bottom: 1px solid #fff; */
+}
+
+.navbar {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.table-wrapper {
+  background-color: #c1c8cc;
+  margin-top: 2rem;
+  border-radius: 1.5rem;
+  padding: 0 0 50px 0;
+}
+.footer .dropdown-menu {
+  position: relative !important;
+  transform: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+.footer .dropdown-menu li {
+  margin: 0 !important;
+}
+.heading.lg {
+  color: #ffffff;
+  font-family: "DINOT-Bolds", Sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.footer .dropdown-menu .dropdown-item {
+  color: white;
+  border-bottom: 1px solid #c1c8cc;
+  padding: 15px;
+}
+
+table {
+  margin-top: 1rem;
+}
+table tr td,
+th {
+  font-size: 15px;
+  font-family: "DINOT-Medium";
+  text-align: center;
+  border: 1px solid #fff;
+}
+table {
+  border-collapse: collapse;
+  /* border-width: 0 !important; */
+  border-style: solid;
+  border-color: transparent;
+}
+table tr,
+th {
+  padding: 15px;
+  line-height: 1.5;
+  vertical-align: top;
+}
+.programme {
+  background-color: #7a7a7a;
+  padding: 15px;
+  margin-bottom: 0;
+  border-radius: 100px;
+  box-shadow: 0 -10px 0 red;
+  color: #ffffff;
+  font-family: "DINOT-Bolds", Sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.footer {
+  background-color: #425363;
+  padding: 30px 0;
+  font-family: "DINOT-Demi", Sans-serif;
+  font-size: 14px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #d92222;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.footer h6 {
+  color: #fff;
+}
+
+.footer-signup-btn {
+  padding: 7px 35px;
+  background-color: #d92222;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.75rem;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+  font-weight: 800;
+}
+
+.card {
+  background-color: transparent;
+  align-items: center;
+}
+.card-img-top {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.card-body {
+  padding-top: 25px;
+}
+.card-text {
+  color: #6c757d;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.social-icons a {
+  background-color: #ffffffed;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  margin: 0 0.2rem;
+  text-decoration: none;
+}
+.social-icons i {
+  color: #010101a8;
+  font-size: 1.6rem;
+}
+
+.programme-btns a {
+  background-color: #d92222;
+  color: #fff;
+  font-size: 26px;
+  font-weight: bolder;
+  font-family: "Dinot2014-Regular", Sans-serif;
+  text-decoration: underline;
+}
